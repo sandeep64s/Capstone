@@ -1,0 +1,132 @@
+
+/* Sign up component */
+
+.signup-container {
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(230, 230, 230);
+    float: right;
+    box-shadow: -20px 0px 10px rgba(0,0,0,0.2);
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+  
+  .signup-container:hover {
+    opacity: 0.8;
+    width: 45%;
+  }
+  
+  #signup-header {
+    margin-left: 30px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 2em;
+  }
+  
+  .signup-input {
+    width: 160px;
+    border: none;
+    border-bottom: 1px solid rgb(115, 115, 115);
+    background-color: transparent;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-style: italic;
+    padding-left: 15px;
+  }
+  
+  .signup-input:hover {
+    border-bottom: 2px solid rgb(115, 115, 115);
+  }
+  
+  .signup-input2{
+    width: 348px;
+    border: none;
+    border-bottom: 1px solid rgb(115, 115, 115);
+    background-color: transparent;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-style: italic;
+    padding-left: 15px;
+  }
+  
+  .signup-input2:hover {
+    border-bottom: 2px solid rgb(115, 115, 115);
+  }
+  
+  .signup-icon {
+    height: 20px;
+    width: 20px;
+    opacity: 85%;
+    position: relative;
+    top: 5px;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  
+  #signup-btn {
+    border: none;
+    border-radius: 20px;
+    height: 25px;
+    width: 100px;
+    color: rgb(230, 230, 230);
+    background-color: rgb(63, 63, 63);
+    margin-top: 30px;
+    margin-left: 25px;
+    transition: 0.3s;
+    font-size: 0.8em;
+  }
+  
+  #signup-btn:hover {
+    box-shadow: 3px 3px 0 rgba(255, 0, 0, 0.7);
+    cursor: pointer;
+  }
+  
+  #login-link{
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    color:rgb(63, 63, 63);
+    font-size: 1em;
+    margin-left: 0px;
+  }
+  
+  #login-link:focus {
+    border: none;
+    outline: none;
+  }
+  
+  #login-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(227, 37, 37);
+  }
+  
+  #signup-footer {
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  
+  .alert-box{
+    background-color: rgb(255, 127, 127);
+    height: 50px;
+    width: 50%;
+    position: relative;
+    bottom: 170px;
+    left: -320px;
+    border-radius: 10px;
+    opacity: 1 !important;
+    color: white;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgb(63, 63, 63, 0.6);
+  }
+
+  .alert-box p{
+    position: relative;
+    top: 10px;
+
+  }

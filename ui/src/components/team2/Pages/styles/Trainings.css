@@ -1,0 +1,74 @@
+.header {
+    font-weight: 800;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.training-table {
+    display: block;
+    margin-top: 40px;
+}
+
+.training-table .heading {
+    margin: auto;
+    padding: 15px 10px;
+    width: 20px;
+    text-align: start;
+}
+
+.training-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+a.training-link {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--font-dark);
+}
+
+.training-container,
+a .training-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1.25fr 2fr 1.25fr 2fr 2fr 1fr;
+    column-gap: 20px;
+    max-width: 80%;
+    width: 80%;
+    min-height: auto;
+    padding: 1rem;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.single-training {
+    background-color: #FFFF;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px #dedede;
+    transition: 0.2s;
+    text-transform: unset;
+    margin-bottom: 1rem;
+}
+
+.single-training:hover {
+    background-color: #e8e8e8;
+    /* color: #F9F9F9; */
+}
+
+.single-training div,
+.header div {
+    width: 100%;
+    text-align: center;
+    height: auto;
+    word-wrap: break-word;
+}

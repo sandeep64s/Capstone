@@ -1,0 +1,31 @@
+
+/* No match component */
+
+.no-match-container {
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(230, 230, 230);
+    float: right;
+    box-shadow: -20px 0px 10px rgba(0,0,0,0.2) ;
+    color: rgb(63, 63, 63);
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+  
+  .no-match-container:hover{
+    opacity: 0.8;
+    width: 45%;
+  }
+  
+  #no-match-heading{
+    margin-left: 50px;
+    margin-top: 170px;
+  }
+  
+  #no-match-img{
+    width: 100px;
+    margin-left: 170px;
+    opacity: 0.6;
+  }
+  
+  

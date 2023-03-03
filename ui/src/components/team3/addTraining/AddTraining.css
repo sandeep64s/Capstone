@@ -1,0 +1,36 @@
+/* .form-control {
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 40px;
+} */
+
+.error-message {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: .875em;
+    color: #dc3545
+}
+
+
+/* 
+.form-control:last-child {
+    margin-bottom: 5px;
+}
+
+.invalid-feedback {
+    margin-bottom: 15px;
+}
+
+.form-pr {
+    display: flex;
+    background-color: blueviolet;
+}
+
+.form-pr {
+    display: flex;
+    align-self: center;
+}
+
+.links {
+    margin: 0px 2px;
+} */

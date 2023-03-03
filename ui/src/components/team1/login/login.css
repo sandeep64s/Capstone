@@ -1,0 +1,119 @@
+/* Login up component */
+
+.login-container {
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(230, 230, 230);
+    float: right;
+    box-shadow: -20px 0px 10px rgba(0,0,0,0.2) ;
+    color: rgb(63, 63, 63);
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+  
+  .login-container:hover{
+    opacity: 0.8;
+    width: 45%;
+  }
+  
+  .login-icon {
+    height: 20px;
+    width: 20px;
+    display: inline;
+    opacity: 85%;
+    position: relative;
+    top: 5px;
+    margin-left: 100px;
+    margin-right: 10px;
+  }
+  
+  .login-input {
+    display: inline-block;
+    width: 220px;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+    font-style: italic;
+    font-size: 0.9em;
+    padding-left: 15px;
+    transition: 0.3s;
+  }
+  
+  .login-input:hover {
+    box-shadow: 0px 0px 40px rgba(0,0,0,0.5);
+  }
+  
+  #login-btn {
+    border: none;
+    border-radius: 20px;
+    height: 25px;
+    width: 100px;
+    color: rgb(230, 230, 230);
+    background-color: rgb(63, 63, 63);
+    margin-top: 20px;
+    margin-left: 248px;
+    transition: 0.3s;
+    font-size: 0.8em;
+  }
+  
+  #login-btn:hover {
+    box-shadow: 3px 3px 0 rgba(255, 0, 0, 0.7);
+    cursor: pointer;
+  }
+  
+  #login-header {
+    margin-left: 100px;
+    margin-top: 170px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 2em;
+  }
+  
+  #signup-link{
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    color:rgb(63, 63, 63);
+    font-size: 1em;
+    margin-left: 0px;
+  }
+  
+  #signup-link:focus {
+    border: none;
+    outline: none;
+  }
+  
+  #signup-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(227, 37, 37);
+  }
+  
+  #login-footer {
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 12px;
+    text-decoration: none;
+  }
+
+  .alert-box{
+    background-color: rgb(255, 127, 127);
+    height: 50px;
+    width: 50%;
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+    border-radius: 10px;
+    opacity: 1 !important;
+    color: white;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgb(63, 63, 63, 0.6);
+  }
+
+  .alert-box p{
+    position: relative;
+    top: 10px;
+
+  }

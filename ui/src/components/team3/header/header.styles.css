@@ -1,0 +1,27 @@
+.navbar-color-header {
+    background-image: linear-gradient(45deg, #7175da, #9790f2);
+    width: 100%;
+    display: flex;
+    min-width: 100%;
+    justify-content: space-around;
+}
+.navbar-container-header {
+    /* width: 93vw; */
+    top: 0;
+    left: 0;
+    position: absolute;
+    min-width: 100%;
+    z-index: 1;
+}
+
+.training-navlink a {
+    text-decoration: none;
+   
+    color:rgb(252 253 255)
+
+}
+.training-navlink a:hover {
+    text-decoration: none;
+    
+    color:rgb(228, 224, 224);
+}

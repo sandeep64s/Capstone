@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+
+:root {
+    --primary-blue: #3C6CEB;
+    --bg-blue: #EBF0FE;
+    --bg-gray-dark: #BCC4C8;
+    --bg-gray-light: #DDE0E2;
+    --font-light: #5C5D60;
+    --font-dark: #444444;
+    --font-orange: #E45447;
+    --bg-success: #59ce90a4;
+    --font-success: #66BFBF;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+  
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav.home-links a {
+    color: var(--font-success);
+}
+
+nav.home-links a:after {
+    content: "\2192";
+    font-size: 1rem;
+    color: var(--font-success);
+    margin-left: 6px;
+}
+
+nav.home-links a:hover:after {
+    margin-left: 9px;
+}
+
+.logo {
+    margin: 0rem 0 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+    color: var(--font-dark);
+    width: 50px;
+    height: 50px;
+    font-size: 2.5rem;
+}
+
+.logo svg {
+    filter: drop-shadow(0px 0px 4px var(--font-orange));
+    color: var(--primary-blue);
+}
+
+.header-text {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--font-dark);
+    margin: 0;
+    padding: 0;
+}
+
+span.icon {
+    font-size: 1.5rem;
+}
+
+main {
+    padding-top: 2rem !important;
+}
+
+main div h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+}

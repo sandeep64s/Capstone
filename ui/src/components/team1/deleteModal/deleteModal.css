@@ -1,0 +1,51 @@
+  #delete-modal-yes-btn {
+    color: red !important;
+    position: fixed !important;
+    right: 435px !important;
+    bottom: 30px !important;
+    width: 60px;
+    font-size: 16px !important;
+  }
+  
+  #delete-modal-yes-btn:hover {
+    font-size: 18px !important;
+    box-shadow: 0 0px 16px 0 rgb(255, 0, 0), 0 0px 50px 0 rgb(255, 0, 0) !important;
+    background-color: red !important;
+    color: white !important;
+  }
+  
+  #delete-modal-no-btn {
+    color: rgb(0, 255, 30) !important;
+    position: fixed !important;
+    bottom: 30px !important;
+    right: 360px !important;
+    width: 60px;
+    font-size: 16px !important;
+  }
+  
+  #delete-modal-no-btn:hover {
+    box-shadow: 0 0px 16px 0 rgb(0, 255, 34), 0 0px 50px 0 rgb(9, 255, 0) !important;
+    background-color: rgb(0, 255, 51) !important;
+    color: white !important;
+    font-size: 18px !important;
+  }
+
+.delete-modal-button-common{
+  background-color: #ffffff !important;
+  border: none !important;
+  border-radius: 10px !important;
+  color: rgb(0, 0, 0) !important;
+  padding: 5px 12px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  font-size: 12px !important;
+  margin-left: -40px !important;
+  transition-duration: 0.4s !important;
+}
+
+.delete-modal-button-common:hover{
+  box-shadow: 0 0px 16px 0 rgb(255, 255, 255), 0 0px 50px 0 rgb(255, 255, 255) !important;
+  background-color: rgb(255, 255, 255) !important;
+  cursor: pointer !important;
+}
